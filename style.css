@@ -1,0 +1,212 @@
+body{
+    margin: 0px;
+    border: 0px;
+    background-color: rgb(240 247 244);
+}
+.bgimg{
+    background-image:url(https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) ;
+    height:800px;
+    background-repeat: no-repeat;
+    
+    
+}
+.navigation{
+    display: inline-block;
+    position: fixed;
+    background-color: rgb(145, 144, 146);
+    border-radius: 10px;
+    width: 99vw;
+    opacity: 0.8;
+    
+    
+    
+    
+}
+
+
+
+
+.navbar li{
+    display: inline-block;
+    /* border: 2px solid red; */
+    position:relative;
+    left:320px;
+    margin-left: 100px;
+    
+    
+
+}
+
+.navbar li a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    
+    
+}
+
+.navbar li a:hover{
+    text-decoration: underline;
+}
+
+.welcome{
+    /* margin:10px 10px; */
+    /* border:2px solid red; */
+    padding-bottom: 150px;
+    padding-top: 200px;
+    animation-name: Monisha;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-delay: 1s;
+    
+}
+@keyframes Monisha {
+    from{
+        width: 30%;
+    }
+    to{
+        width: 100%;
+    }
+}
+.welcome h1{
+    text-align: center;
+    color: cornsilk;
+    font-size: 40px;
+}
+
+.welcome p{
+    text-align: center;
+    color: cornsilk;
+    font-size: 30px;
+}
+
+.About{
+    /* border:2px solid red */
+}
+
+.About img{
+    border-radius: 50%;
+    display: block;
+    margin:auto;
+}
+
+
+.About h1{
+    text-align: center;
+    font-family: 'Zilla Slab', serif;
+}
+
+.About p{
+    font-size: larger;
+    /* border: 2px solid salmon; */
+    padding : 50px 100px 0px 100px;
+    font-size: 22px;
+    font-family: 'Zilla Slab', serif;
+    text-align: center;
+    
+}
+
+#quote{
+    font-family: 'Indie Flower', cursive;
+    
+    
+}
+.link a:hover {
+    cursor: pointer;
+    background-color: rgb(172, 190, 197);
+} 
+
+/* .link a:visited{
+    background-color: rgb(48, 105, 128);
+} */
+
+.link a {
+    /* display: inline; */
+    /* position: relative;
+    left:200px; */
+    color: rgb(244, 241, 248);
+    padding: 5px 10px 5px 10px; 
+    margin-left: 200px;
+    margin-right: 750px;
+    border: 1px solid blue;
+    background-color: rgb(37, 137, 150);
+    border-radius: 5px;
+    text-decoration: none;    
+}   
+
+#linkden{
+    position: absolute;
+    right: 47px;
+    top: 1559px;
+    /* top:43px;  */
+    display: inline-block;
+}
+
+#github{
+    position: absolute;
+    right:-114px;
+    top:1558px;
+    /* top:43px;  */
+    display: inline-block;
+}
+
+.Acheive{
+    margin-top: 50px;
+}
+
+.Acheive h1,h2{
+    text-align: center;
+    font-family: 'Zilla Slab', serif;
+}
+
+.Acheive p{
+    text-align: center;
+    font-size: larger;
+    font-family: 'Zilla Slab', serif;
+    
+}
+
+#quote2 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 22px;
+    font-weight: bolder;
+}
+.acontainer{
+    height:450px;
+    width:98vw;
+    /* border: 2px solid black; */
+    display: flex;
+    margin: 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item{
+    height: 300px;
+    width:300px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    background-color:  rgb(189 202 224);
+    transition:all 0.5s ease-in-out
+    /* align-self: flex-start; */
+}
+
+.item:hover{
+transform: scale(1.1);
+cursor:pointer;
+background-color: rgb(174, 126, 219);
+}
+
+hr{
+    width:85%;
+    align-items: center;
+    border: 0.5px dotted #b597dc;
+    display: block;
+    margin-top: 50px;
+}
+               
+
+
